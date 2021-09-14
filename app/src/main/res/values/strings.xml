@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Chakra Tone</string>
+    <string name="bt_mainPage">All Chakras</string>
+    <string name="bt_mainPage_Custom">Custom</string>
+    <string name="txt_btn1">Escucha el tono de Chakra de tu preferencia </string>
+    <string name="txt_btn2">Selecciona los tonos de los chakras quieres trabajar junto con su tiempo de reproducción </string>
+
+    <string name="RB_chakra1">1 - Muladhara</string>
+    <string name="RB_chakra2">2 - Svadhistana</string>
+    <string name="RB_chakra3">3 - Manipura</string>
+    <string name="RB_chakra4">4 - Anahata</string>
+    <string name="RB_chakra5">5 - Vishudda</string>
+    <string name="RB_chakra6">6 - Ajna</string>
+    <string name="RB_chakra7">7 - Sahasrara</string>
+
+    <string name="tx_chakra1">1 - Muladhara</string>
+    <string name="tx_chakra2">2 - Svadhistana</string>
+    <string name="tx_chakra3">3 - Manipura</string>
+    <string name="tx_chakra4">4 - Anahata</string>
+    <string name="tx_chakra5">5 - Vishudda</string>
+    <string name="tx_chakra6">6 - Ajna</string>
+    <string name="tx_chakra7">7 - Sahasrara</string>
+
+    <string name="bt_playAll">Play</string>
+
+    <string name="txt_selectchakra">Selecciona los chackras que deseas trabajar junto con su tiempo de reproducción</string>
+    <string name="txt_selecttime">Tiempo activo (min)</string>
+</resources>

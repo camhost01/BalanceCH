@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/CLY"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B2122">
+
+    <LinearLayout
+        android:layout_width="255dp"
+        android:layout_height="380dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#80FFFFFF"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:text="@string/tx_chakra1"
+                    android:textColor="#F41515"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageButton
+                    android:id="@+id/bt_ck1_play"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:background="@mipmap/ck1"
+                    app:srcCompat="@android:drawable/ic_media_play" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#80FFFFFF"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:text="@string/tx_chakra2"
+                    android:textColor="#FFAB00"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageButton
+                    android:id="@+id/bt_ck2_play"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:background="@mipmap/ck2"
+                    app:srcCompat="@android:drawable/ic_media_play" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#99FFFFFF"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:text="@string/tx_chakra3"
+                    android:textColor="#957D01"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageButton
+                    android:id="@+id/bt_ck3_play"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:background="@mipmap/ck3"
+                    app:srcCompat="@android:drawable/ic_media_play" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#80FFFFFF"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:text="@string/tx_chakra4"
+                    android:textColor="#378804"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageButton
+                    android:id="@+id/bt_ck4_play"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:background="@mipmap/ck4"
+                    android:src="@android:drawable/ic_media_play" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#80FFFFFF"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:text="@string/tx_chakra5"
+                    android:textColor="#304FFE"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageButton
+                    android:id="@+id/bt_ck5_play"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:background="@mipmap/ck5"
+                    android:src="@android:drawable/ic_media_play" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#80FFFFFF"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:text="@string/tx_chakra6"
+                    android:textColor="#6200EA"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageButton
+                    android:id="@+id/bt_ck6_play"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:background="@mipmap/ck6"
+                    android:src="@android:drawable/ic_media_play" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#80FFFFFF"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:text="@string/tx_chakra7"
+                    android:textColor="#AA00FF"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageButton
+                    android:id="@+id/bt_ck7_play"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:background="@mipmap/ck7"
+                    android:src="@android:drawable/ic_media_play" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="LARGE_BANNER"
+        app:adUnitId="ca-app-pub-8242256510253784/8048712265"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></com.google.android.gms.ads.AdView>
+</androidx.constraintlayout.widget.ConstraintLayout>
